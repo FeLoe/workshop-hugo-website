@@ -53,5 +53,5 @@ menu:
       url: "/#talks"
       weight: 30
     - name: CV
-      url: "/uploads/cv.pdf"
+      url: "/cv/"
       weight: 40
