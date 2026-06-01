@@ -1,8 +1,10 @@
 module github.com/yourusername/my-academic-website
 
-go 1.19
+go 1.21
+
+require github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.9.0
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.9.0
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.2.0 // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.2.4 // indirect
 )

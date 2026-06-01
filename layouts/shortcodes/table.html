@@ -1,0 +1,42 @@
+{{/* Table shortcode — patched for Hugo 0.123+ (getCSV was removed) */}}
+{{ $src := .Get "path" }}
+{{ $delimiter := .Get "delimiter" | default "," }}
+{{ $useHeaderRow := not (eq (lower (.Get "header")) "false") }}
+{{ $caption := .Get "caption" }}
+
+{{ $is_remote := strings.HasPrefix $src "http" }}
+{{ $content := "" }}
+
+{{ if $is_remote }}
+  {{ with resources.GetRemote $src }}{{ $content = .Content }}{{ end }}
+{{ else }}
+  {{ with $.Page.Resources.Get $src }}{{ $content = .Content }}{{ end }}
+{{ end }}
+
+{{ if $content }}
+  {{ $lines := slice }}
+  {{ range split $content "\n" }}
+    {{ $line := strings.TrimRight "\r" . }}
+    {{ if $line }}{{ $lines = $lines | append $line }}{{ end }}
+  {{ end }}
+
+  <table class="table">
+    {{ range $i, $line := $lines }}
+      {{ $cells := split $line $delimiter }}
+      {{ if and $useHeaderRow (eq $i 0) }}
+        <thead><tr>{{ range $cells }}<th>{{ . | markdownify | emojify }}</th>{{ end }}</tr></thead>
+        <tbody>
+      {{ else }}
+        <tr>{{ range $cells }}
+          {{ if findRE "^-?\\d+(\\.\\d+)?$" . }}
+            <td data-table-dtype="number">{{ . }}</td>
+          {{ else }}
+            <td data-table-dtype="text">{{ . | markdownify | emojify }}</td>
+          {{ end }}
+        {{ end }}</tr>
+      {{ end }}
+    {{ end }}
+    </tbody>
+    {{ if $caption }}<caption>{{ $caption | markdownify | emojify }}</caption>{{ end }}
+  </table>
+{{ end }}

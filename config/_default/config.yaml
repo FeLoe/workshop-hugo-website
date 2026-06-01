@@ -1,5 +1,5 @@
 # ============================================================
-# STEP 1: Change these three lines to your own info
+# STEP 1: Change these two lines to your own info
 # ============================================================
 title: "Alex Researcher"
 baseURL: "https://yourname.netlify.app/"
@@ -20,8 +20,9 @@ pagination:
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
 
 outputs:
   home: ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
@@ -32,6 +33,13 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+security:
+  funcs:
+    getenv:
+      - "^HUGO_"
+      - "^CI$"
+      - "^WC_.*$"
 
 menu:
   main:

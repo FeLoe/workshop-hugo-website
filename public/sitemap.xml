@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yourname.netlify.app/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/tags/computational-methods/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/publication/my-first-paper/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/publication/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/tags/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/tags/your-topic/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yourname.netlify.app/authors/admin/</loc>
+  </url><url>
+    <loc>https://yourname.netlify.app/authors/</loc>
+  </url><url>
+    <loc>https://yourname.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://yourname.netlify.app/home/</loc>
+  </url>
+</urlset>
