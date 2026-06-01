@@ -1,0 +1,38 @@
+# ============================================================
+# STEP 2: Fill in your contact details
+# ============================================================
+email: a.researcher@university.edu
+twitter: alexresearcher          # without the @
+
+# ============================================================
+# Visual settings — change theme colour or font if you like
+# ============================================================
+theme: minimal                   # options: minimal, rose, forest, ocean, ...
+day_night: true                  # enable dark/light mode toggle
+font: ""
+font_size: L
+
+# ============================================================
+# Leave the rest as-is to get started
+# ============================================================
+site_type: Person
+description: "Personal website of Alex Researcher"
+
+main_menu:
+  enable: true
+  align: l
+  show_logo: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+date_format: "Jan 2, 2006"
+address_format: en-us
+
+highlight: true
+math: false
+diagram: false
+privacy_pack: false
+
+show_related:
+  page: false

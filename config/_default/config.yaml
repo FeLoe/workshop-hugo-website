@@ -1,0 +1,49 @@
+# ============================================================
+# STEP 1: Change these three lines to your own info
+# ============================================================
+title: "Alex Researcher"
+baseURL: "https://yourname.netlify.app/"
+
+# ============================================================
+# Leave everything below as-is to get started
+# ============================================================
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+enableRobotsTXT: true
+summaryLength: 30
+
+pagination:
+  pagerSize: 10
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+
+outputs:
+  home: ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
+  section: ["HTML", "RSS"]
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: About
+      url: "/#about"
+      weight: 10
+    - name: Publications
+      url: "/#publications"
+      weight: 20
+    - name: Talks
+      url: "/#talks"
+      weight: 30
+    - name: CV
+      url: "/uploads/cv.pdf"
+      weight: 40
