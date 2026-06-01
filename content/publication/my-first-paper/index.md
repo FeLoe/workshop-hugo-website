@@ -23,8 +23,11 @@ publication: "In *Journal of Important Things*"
 publication_short: ""
 
 abstract: >
-  Write your abstract here. This will appear on the publication detail page.
-  You can use **bold** and *italic* markdown here.
+  This is a placeholder abstract for the workshop demo. In your real site, paste
+  your paper's abstract here. It will appear on the publication detail page when
+  visitors click the paper title or the Abstract button. You can use **bold** and
+  *italic* markdown. Keywords and links to code, data, and preprints also appear
+  on this page.
 
 # Add a PDF of your paper to the folder and uncomment:
 # url_pdf: "my-first-paper.pdf"
@@ -40,7 +43,7 @@ image:
   preview_only: false
 
 # Display this paper in the Featured section on the home page?
-featured: false
+featured: true
 
 tags:
   - computational methods
