@@ -16,12 +16,15 @@ font_size: L
 # Leave the rest as-is to get started
 # ============================================================
 site_type: Person
-description: "Personal website of Alex Researcher"
+description: "Personal website of Marvin Penguin"
+
+logo:
+  filename: logo.png
 
 main_menu:
   enable: true
   align: l
-  show_logo: false
+  show_logo: true
   show_day_night: true
   show_search: true
   highlight_active_link: true

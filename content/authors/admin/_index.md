@@ -3,13 +3,13 @@
 # STEP 3: Replace everything below with your own information
 # ============================================================
 
-title: Alex Researcher           # Your full name
+title: Marvin Penguin
 
 superuser: true
 role: Assistant Professor of Communication Science
 
 organizations:
-  - name: University of Somewhere
+  - name: Hackathon University
     url: https://example.edu
 
 bio: My research focuses on computational methods and digital media.
@@ -56,8 +56,8 @@ social:
 highlight_name: true
 ---
 
-Welcome to my website! I am an assistant professor of Communication Science at the
-[Department of Communication](https://example.edu), University of Somewhere.
+Welcome to my website! I am an assistant professor of Communication Science at
+[Hackathon University](https://example.edu).
 
 My research focuses on [describe your research area in 1–2 sentences].
 
