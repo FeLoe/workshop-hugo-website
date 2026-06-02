@@ -2,7 +2,8 @@
 # STEP 1: Change these two lines to your own info
 # ============================================================
 title: "Marvin Penguin"
-baseURL: "https://yourname.netlify.app/"
+baseURL: "https://yourname.netlify.app/"   # ← update after Netlify assigns your URL
+                                            #   (Site settings → Domain management)
 
 # ============================================================
 # Leave everything below as-is to get started

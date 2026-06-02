@@ -58,4 +58,4 @@ hugo server
 
 ## Adding a profile photo
 
-Put your photo at `content/authors/admin/avatar.jpg`.
+Put your photo at `content/authors/admin/avatar.png` (or `.jpg`).

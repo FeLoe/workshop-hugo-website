@@ -6,44 +6,45 @@
 title: Marvin Penguin
 
 superuser: true
-role: Assistant Professor of Communication Science
+role: Assistant Professor of Computational Communication Science
 
 organizations:
-  - name: Hackathon University
+  - name: University of Cape Town
     url: https://example.edu
 
-bio: My research focuses on computational methods and digital media.
+bio: My research uses computational methods to study how communities form, communicate, and navigate information environments online — with occasional inspiration from my own species.
 
 interests:
-  - Computational Methods
-  - Digital Media
-  - Your Research Topic
+  - Computational Communication Science
+  - Online Communities and Collective Behaviour
+  - Misinformation and Information Ecosystems
+  - Network Analysis and Colony Dynamics
 
 education:
   courses:
     - course: PhD in Communication Science
-      institution: University of Somewhere
-      year: 2023
+      institution: University of Cape Town
+      year: 2022
     - course: MSc in Communication Science
-      institution: Another University
-      year: 2019
-    - course: BA in Communication Science
-      institution: Yet Another University
-      year: 2017
+      institution: Stellenbosch University
+      year: 2018
+    - course: BA in Media Studies
+      institution: University of Pretoria
+      year: 2016
 
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:a.researcher@university.edu"
+    link: "mailto:m.penguin@uct.ac.za"
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/alexresearcher
+    link: https://twitter.com/MarvinPenguin
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com/citations?user=YOURID
   - icon: github
     icon_pack: fab
-    link: https://github.com/alexresearcher
+    link: https://github.com/MarvinPenguin
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0000-0000-0000
@@ -56,10 +57,13 @@ social:
 highlight_name: true
 ---
 
-Welcome to my website! I am an assistant professor of Communication Science at
-[Hackathon University](https://example.edu).
+Welcome! I am an assistant professor of Computational Communication Science at the
+Boulders Beach Institute for Digital Communication, [University of Cape Town](https://example.edu).
 
-My research focuses on [describe your research area in 1–2 sentences].
+My research uses computational methods to study how communities form, communicate,
+and navigate information environments online — drawing somewhat liberally on lessons
+from my own species. I am particularly interested in misinformation dynamics, online
+network formation, and what penguin colonies can teach us about echo chambers.
 
-I am part of the [Research Group Name](https://example.edu) and teach courses on
-[topic] and [topic].
+I am currently attending the [Hacking Communication Science](https://hackingcommsci.org)
+hackathon at ICA 2026 in Stellenbosch, South Africa.

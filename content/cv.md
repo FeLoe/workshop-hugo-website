@@ -5,20 +5,20 @@ date: 2024-01-01
 
 ## Employment
 
-**Assistant Professor** · Hackathon University · 2024–present
+**Assistant Professor** · Boulders Beach Institute for Digital Communication, University of Cape Town · 2023–present
 
-**Postdoctoral Fellow** · Another Institution · 2022–2024
+**Postdoctoral Fellow** · African Institute for Computational Social Science, Stellenbosch University · 2022–2023
 
 ---
 
 ## Education
 
-**PhD in Communication Science** · Your University · 2023
-*Dissertation: Title of your dissertation*
+**PhD in Communication Science** · University of Cape Town · 2022
+*Dissertation: Colony Dynamics in Digital Environments: A Computational Approach*
 
-**MSc in Communication Science** *(cum laude)* · Another University · 2019
+**MSc in Communication Science** *(cum laude)* · Stellenbosch University · 2018
 
-**BA in Communication Science** · University Name · 2016
+**BA in Media Studies** · University of Pretoria · 2016
 
 ---
 
@@ -26,33 +26,40 @@ date: 2024-01-01
 
 ### Journal Articles
 
-Penguin, M., & Coauthor, B. (2024). My First Paper Title: A Study of Something
-Interesting. *Journal of Important Things*, 10(2), 100–120.
+Penguin, M., & Albatross, A. (2024). Waddling Through the Twittersphere: Computational
+Analysis of Information Diffusion in Coastal Wildlife Communities. *Journal of
+Computer-Mediated Communication*, 29(3), 45–67.
 https://doi.org/10.xxxx/xxxxx
 
-Coauthor, B., & Penguin, M. (2023). Another Paper Title. *Another Good Journal*,
-5(1), 1–20. https://doi.org/10.xxxx/xxxxx
+Rockhopper, E., & Penguin, M. (2023). Fish or Fake News? Misinformation Sharing Patterns
+in Antarctic Online Communities. *Political Communication*, 40(2), 112–134.
+https://doi.org/10.xxxx/xxxxx
+
+### Book Chapters
+
+Penguin, M. (2022). From Physical to Digital Colonies: Network Formation Across Species.
+In B. Seal (Ed.), *Networked Communication: New Frontiers* (pp. 88–110). Cape Town Academic Press.
 
 ---
 
 ## Grants & Awards
 
-**NWO Funding Grant** · €200,000 · 2023–2026
-*Project: Your project title*
+**NRF Grant** · R 1,200,000 · 2023–2026
+*Project: Colony Dynamics in Digital Environments*
 
-**Best Paper Award** · Conference Name · 2022
+**Best Paper Award** · ICA Computational Methods Division · 2023
 
 ---
 
 ## Teaching
 
-**Introduction to Computational Methods** · MSc level · 2024–present
+**Computational Communication Science** · MSc level · 2023–present
 
-**Research Methods** · BSc level · 2023–present
+**Introduction to Digital Methods** · BSc level · 2022–present
 
 ---
 
 ## Service
 
-Editorial board, *Journal Name* · 2023–present  
-Reviewer, *Journal A*, *Journal B*, *Conference C*
+Editorial board, *Journal of Computer-Mediated Communication* · 2024–present
+Reviewer, *Political Communication*, *Communication Research*, ICA Computational Methods Division

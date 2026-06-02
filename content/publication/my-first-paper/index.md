@@ -4,12 +4,11 @@
 # Copy this entire folder, rename it, and edit the fields below.
 # ============================================================
 
-title: "My First Paper Title: A Study of Something Interesting"
+title: "Waddling Through the Twittersphere: Computational Analysis of Information Diffusion in Coastal Wildlife Communities"
 
 authors:
   - admin                        # "admin" = you; add co-authors as strings
-  - "Co-Author Name"
-  - "Another Co-Author"
+  - "Albatross, A."
 
 date: "2024-01-01T00:00:00Z"
 doi: "10.xxxx/xxxxx"             # leave blank if no DOI yet
@@ -19,20 +18,21 @@ doi: "10.xxxx/xxxxx"             # leave blank if no DOI yet
 # 3=Preprint, 4=Report, 5=Book, 6=Book chapter, 7=Thesis
 publication_types: ["2"]
 
-publication: "In *Journal of Important Things*"
-publication_short: ""
+publication: "In *Journal of Computer-Mediated Communication*"
+publication_short: "JCMC"
 
 abstract: >
-  This is a placeholder abstract for the workshop demo. In your real site, paste
-  your paper's abstract here. It will appear on the publication detail page when
-  visitors click the paper title or the Abstract button. You can use **bold** and
-  *italic* markdown. Keywords and links to code, data, and preprints also appear
-  on this page.
+  Using a computational approach to analyse 2.3 million posts, we examine how information
+  spreads through online communities adjacent to wildlife conservation. Findings suggest
+  that network topology in penguin-adjacent Twitter communities mirrors flocking patterns
+  observed in physical colonies — with high clustering, rapid cascade formation, and
+  susceptibility to coordinated misinformation. Implications for computational communication
+  science and conservation communication are discussed.
 
 # Add a PDF of your paper to the folder and uncomment:
 # url_pdf: "my-first-paper.pdf"
 
-url_code: ""                     # link to code/repo
+url_code: "https://github.com/MarvinPenguin/twittersphere-study"
 url_dataset: ""                  # link to data
 url_preprint: ""                 # link to preprint (osf, arxiv, etc.)
 
@@ -47,5 +47,7 @@ featured: true
 
 tags:
   - computational methods
-  - your topic
+  - information diffusion
+  - misinformation
+  - network analysis
 ---
